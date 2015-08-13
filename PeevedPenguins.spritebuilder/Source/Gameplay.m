@@ -34,7 +34,7 @@
     _mouseJointNode.physicsBody.collisionMask = @[];
     
 }
-/*
+
 // called on every touch in this scene
 -(void) touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event
 {
@@ -71,7 +71,7 @@
     // when touches are cancelled, meaning the user drags their finger off the screen or onto something else, release the catapult
     [self releaseCatapult];
 }
-*/
+
 
 - (void)launchPenguin {
     // loads the Penguin.ccb we have set up in Spritebuilder
